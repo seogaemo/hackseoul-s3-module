@@ -1,5 +1,5 @@
 import { PutObjectCommand, S3Client, S3ClientConfig } from "@aws-sdk/client-s3";
-import * as crypto from "crypto";
+import * as crypto from "node:crypto";
 
 import { Injectable } from "@nestjs/common";
 import { ConfigService } from "@nestjs/config";
